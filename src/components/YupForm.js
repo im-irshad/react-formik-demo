@@ -2,7 +2,6 @@ import React from "react";
 import { ErrorMessage, Field, Form, Formik, FieldArray } from "formik";
 import * as Yup from "yup";
 import { TextError } from "./TextError";
-import { computeHeadingLevel } from "@testing-library/react";
 export const YupForm = () => {
   const initialValues = {
     name: "",
